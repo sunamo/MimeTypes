@@ -1,5 +1,9 @@
 # MimeTypes
 
+## Short description
+
+Fork zdrojového balíčku MimeTypes, jednoduchého vyhledávání MIME typu podle názvu souboru či přípony a naopak. Data jsou generována z mime-db. Obsahuje jedinou třídu MimeTypes kompilovanou přímo do projektu.
+
 A simple lookup from file name/extension to MIME/media type and vice versa, generated from [mime-db](https://github.com/jshttp/mime-db), which in turn is compiled from IANA, Apache and nginx's MIME types.  
 This is a source-only package, containing a single class, `MimeTypes`, which will be compiled into your library/application under the root namespace.
 
